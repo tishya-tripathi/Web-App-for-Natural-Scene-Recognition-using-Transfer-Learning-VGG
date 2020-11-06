@@ -14,6 +14,7 @@
 
 
 ### Model Architecture : 
+
 ***VGG19 ***
 
 Transfer Learning(VGG19) was implemented by using the pre-trained weights from ImageNet dataset. The last layer has been changed to classify the outputs into 6 categories and the model was trained again for 30 epochs with 
