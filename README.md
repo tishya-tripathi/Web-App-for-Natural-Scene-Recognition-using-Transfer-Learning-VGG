@@ -10,6 +10,8 @@
 ### Dataset : Intel Image Classification dataset | Published by Intel to host a image classification challenge, it consists of 25,000 coloured images of natural scenes around the world of size 150x150 pixels
 
 <br/><br/>
+***
+
 
 ### Model Architecture : 
 ***VGG19 ***
@@ -22,12 +24,12 @@ The model achieved 91.47 % accuracy on the validation dataset.
 Data augmentation techniques like RandomHorizontalFlip, RandomRotation and ColorJitter were applied to the data. 
 Before using them for training the model, the images were normalized with ImageNet stats and the pixels were converted to tensor.
 ***
-### Web-App
+### Web-App :
 
 The weights of the saved model was downloaded and an we application was built using Streamlit for a more accessible and intuitive user interface.
 Still, the model could only be accessed from my local machine.
 ***
-### Deployment
+### Deployment :
 
 Finally, the web app was deployed on a public URL using Heroku so that it could be accessed by any person from any device.
 
