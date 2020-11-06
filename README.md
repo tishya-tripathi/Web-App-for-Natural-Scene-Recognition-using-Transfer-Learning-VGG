@@ -1,7 +1,9 @@
 # Natural Scene Recognition
 
-## This web-app can recognise a random image uploaded by the User and classify it into one of the following 6 categories of Natural Scenes : 
-## [ 'Buildings', 'Forest', 'Glacier', 'Mountain', 'Sea', 'Street' ]
+***
+
+### This web-app can recognise a random image uploaded by the User and classify it into one of the following 6 categories of Natural Scenes : 
+### [ 'Buildings', 'Forest', 'Glacier', 'Mountain', 'Sea', 'Street' ]
 
 ***
 
