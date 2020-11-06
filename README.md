@@ -1,16 +1,16 @@
 # Natural Scene Recognition
 
-***
+<br/><br/>
 
 ### This web-app can recognise a random image uploaded by the User and classify it into one of the following 6 categories of Natural Scenes : 
 ### [ 'Buildings', 'Forest', 'Glacier', 'Mountain', 'Sea', 'Street' ]
 
-***
+<br/>
 
 ### Dataset : Intel Image Classification dataset | Published by Intel to host a image classification challenge, it consists of 25,000 coloured images of natural scenes around the world of size 150x150 pixels
 
-<br/><br/>
-
+<br/>
+***
 ### Model Architecture : VGG19 
 
 Transfer Learning(VGG19) was implemented by using the pre-trained weights from ImageNet dataset. The last layer has been changed to classify the outputs into 6 categories and the model was trained again for 30 epochs with 
@@ -29,3 +29,6 @@ Still, the model could only be accessed from my local machine.
 ### Deployment
 
 Finally, the web app was deployed on a public URL using Heroku so that it could be accessed by any person from any device.
+
+
+***
